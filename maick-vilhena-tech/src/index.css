@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0F172A;
+  --color-cyan: #06B6D4;
+}
+
+body {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  @apply bg-slate-50 text-slate-900;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
