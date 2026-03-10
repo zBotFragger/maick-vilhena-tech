@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, MonitorPlay, Sun, Moon } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
@@ -49,13 +49,12 @@ const Navbar = () => {
       <div className="container mx-auto px-6 lg:px-12 flex items-center justify-between">
         
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-2 group">
-          <div className="bg-cyan flex items-center justify-center w-10 h-10 rounded-lg text-white group-hover:bg-white group-hover:text-cyan transition-colors">
-             <MonitorPlay size={24} />
-          </div>
-          <span className={`text-xl font-bold tracking-tight ${isScrolled ? 'text-white' : 'text-slate-900 dark:text-white'} transition-colors`}>
-            Maick Vilhena <span className="text-cyan">Tech</span>
-          </span>
+        <a href="#home" className="flex items-center group overflow-hidden rounded-xl shadow-md">
+          <img 
+            src="/logo.png" 
+            alt="Maick Vilhena Tech" 
+            className="h-14 w-40 md:h-16 md:w-56 object-cover object-center group-hover:scale-105 transition-transform duration-300" 
+          />
         </a>
 
         {/* Desktop Nav */}
