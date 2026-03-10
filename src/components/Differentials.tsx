@@ -92,7 +92,9 @@ const Differentials = () => {
           >
             <h3 className="text-xl font-bold mb-4 text-center">Precisa de ajuda agora?</h3>
             <a 
-              href="#contato"
+              href="https://wa.me/5591984906388"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 bg-cyan text-white text-sm font-bold uppercase tracking-wider rounded-xl shadow-lg shadow-cyan/25 hover:bg-cyan/90 transition-all transform group-hover:scale-105"
             >
               Falar Via WhatsApp
