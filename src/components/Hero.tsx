@@ -91,7 +91,7 @@ const Hero = () => {
               </div>
               
               {/* Terminal Body */}
-              <div className="p-6 text-left min-h-[120px] sm:min-h-[100px] flex items-start">
+              <div className="p-6 text-left h-[120px] sm:h-[100px] flex items-start">
                 <div className="text-2xl md:text-3xl text-green-400 leading-relaxed font-semibold">
                   <span className="text-cyan font-bold mr-2">root@mvt:~$</span>
                   <span className="text-slate-100">{text}</span>
