@@ -62,7 +62,7 @@ const FAQ = () => {
             >
               <button
                 onClick={() => toggleOpen(index)}
-                className="w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none"
+                className="w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none cursor-pointer"
               >
                 <span className="text-lg font-bold text-navy dark:text-white transition-colors">
                   {faq.question}
