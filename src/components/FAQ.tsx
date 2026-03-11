@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, CheckCircle2 } from 'lucide-react';
 
 const faqs = [
   {
@@ -83,8 +83,11 @@ const FAQ = () => {
                     exit={{ height: 0, opacity: 0 }}
                     transition={{ duration: 0.3, ease: 'easeInOut' }}
                   >
-                    <div className="px-6 pb-6 text-slate-600 dark:text-slate-300 leading-relaxed border-t border-slate-100 dark:border-slate-700/50 mt-2 pt-4">
-                      {faq.answer}
+                    <div className="px-6 pb-8 pt-6 border-t border-slate-100 dark:border-slate-700/50 mt-1 flex gap-4 bg-slate-50/50 dark:bg-slate-800/50">
+                      <CheckCircle2 size={20} className="text-cyan flex-shrink-0 mt-1" />
+                      <div className="text-slate-600 dark:text-slate-300 leading-relaxed text-[1.05rem]">
+                        {faq.answer}
+                      </div>
                     </div>
                   </motion.div>
                 )}
