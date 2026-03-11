@@ -5,6 +5,7 @@ import Services from './components/Services';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Differentials from './components/Differentials';
+import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import { useEffect } from 'react';
 import Lenis from 'lenis';
@@ -55,6 +56,7 @@ function App() {
         <About />
         <Portfolio />
         <Differentials />
+        <FAQ />
         <Contact />
       </main>
       <FloatingWhatsApp />
