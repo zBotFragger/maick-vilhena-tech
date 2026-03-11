@@ -48,7 +48,7 @@ const Differentials = () => {
           className="text-center max-w-3xl mx-auto mb-16 lg:mb-24"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Por que escolher a <span className="text-cyan">Maick Vilhena Tech</span>?
+            Por que escolher a <span className="text-cyan">Maick Vilhena TECH</span>?
           </h2>
           <p className="text-lg text-slate-300">
             Nossos diferenciais são construídos com base no respeito ao cliente e na paixão por solucionar problemas tecnológicos reais.

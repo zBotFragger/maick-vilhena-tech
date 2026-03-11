@@ -37,7 +37,7 @@ const About = () => {
             className="flex-1"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-navy dark:text-white mb-6 transition-colors">
-              Sobre a <span className="text-cyan">Maick Vilhena Tech</span>
+              Sobre a <span className="text-cyan">Maick Vilhena TECH</span>
             </h2>
             
             <div className="space-y-6 text-lg text-slate-600 dark:text-slate-300 mb-10 transition-colors">

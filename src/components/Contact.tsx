@@ -304,14 +304,14 @@ const Contact = () => {
               <MonitorPlay size={20} />
             </div>
             <span className="text-lg font-bold text-white tracking-tight">
-              Maick Vilhena <span className="text-cyan">Tech</span>
+              Maick Vilhena <span className="text-cyan">TECH</span>
             </span>
           </div>
           <p className="text-slate-400 mb-6 max-w-md mx-auto">
             Soluções completas em Tecnologia da Informação e Suporte Técnico especializado.
           </p>
           <div className="text-sm font-medium text-slate-500">
-            &copy; {new Date().getFullYear()} Maick Vilhena Tech. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} Maick Vilhena TECH. Todos os direitos reservados.
           </div>
         </div>
       </footer>
