@@ -100,7 +100,7 @@ const Contact = () => {
               transition={{ duration: 0.6 }}
               className="flex-1 space-y-8"
             >
-              <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-xl shadow-navy/5 dark:shadow-cyan/5 border border-slate-100 dark:border-slate-700 transition-colors duration-300">
+              <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-xl shadow-navy/5 dark:shadow-cyan/5 border-2 border-slate-300 dark:border-slate-700 transition-colors duration-300">
                 <h3 className="text-2xl font-bold text-navy dark:text-white mb-6 transition-colors">Informações de Contato</h3>
                 
                 <div className="space-y-6">
@@ -169,7 +169,7 @@ const Contact = () => {
               transition={{ duration: 0.6 }}
               className="flex-1"
             >
-              <form ref={form} onSubmit={handleSubmit} className="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-2xl shadow-2xl shadow-navy/5 dark:shadow-cyan/5 border border-slate-100 dark:border-slate-700 transition-colors duration-300 relative overflow-hidden">
+              <form ref={form} onSubmit={handleSubmit} className="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-2xl shadow-2xl shadow-navy/5 dark:shadow-cyan/5 border-2 border-slate-300 dark:border-slate-700 transition-colors duration-300 relative overflow-hidden">
                 
                 <AnimatePresence>
                   {submitStatus === 'success' && (

@@ -88,7 +88,7 @@ const Portfolio = () => {
                 style={{ transform: flippedCard === index ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
               >
                 {/* Front Side */}
-                <div className="absolute inset-0 bg-slate-50 dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-100 dark:border-slate-800 hover:shadow-2xl transition-all duration-300 flex flex-col [backface-visibility:hidden] [-webkit-backface-visibility:hidden]">
+                <div className="absolute inset-0 bg-slate-50 dark:bg-slate-900 rounded-2xl overflow-hidden border-2 border-slate-300 dark:border-slate-800 hover:shadow-2xl hover:shadow-slate-300 dark:hover:shadow-cyan/10 transition-all duration-300 flex flex-col [backface-visibility:hidden] [-webkit-backface-visibility:hidden]">
                   {/* Image Container */}
                   <div className="relative h-[256px] overflow-hidden">
                     <div className="absolute inset-0 bg-navy/20 dark:bg-slate-900/40 z-10 group-hover:bg-transparent transition-colors duration-500"></div>
