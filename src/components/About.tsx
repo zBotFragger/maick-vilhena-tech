@@ -1,5 +1,6 @@
 import { CheckCircle2 } from 'lucide-react';
 import { motion } from 'framer-motion';
+import MatrixEffect from './MatrixEffect';
 
 const About = () => {
   return (
@@ -16,16 +17,7 @@ const About = () => {
             className="flex-1 w-full max-w-lg lg:max-w-xl relative"
           >
             <div className="absolute top-4 -left-4 w-full h-full border-2 border-cyan/30 rounded-2xl z-0"></div>
-            <img 
-              src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-              alt="Profissional de TI trabalhando" 
-              className="w-full relative z-10 rounded-2xl shadow-xl object-cover aspect-[4/5] md:aspect-auto md:h-[600px]"
-            />
-            {/* Experience Badge */}
-            <div className="absolute -bottom-6 -right-6 bg-navy dark:bg-slate-800 text-white p-6 rounded-2xl shadow-xl z-20 flex flex-col items-center justify-center border-4 border-slate-50 dark:border-slate-900 transition-colors">
-              <span className="text-4xl font-extrabold text-cyan mb-1">+5</span>
-              <span className="text-sm font-medium text-slate-300 text-center uppercase tracking-wider">Anos de<br/>Experiência</span>
-            </div>
+            <MatrixEffect />
           </motion.div>
 
           {/* Text Content */}
